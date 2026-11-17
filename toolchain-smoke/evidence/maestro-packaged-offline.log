@@ -1,0 +1,26 @@
+Running on verb_reference_api30
+ > Flow packaged-offline
+Run smoke.yaml...
+  Launch app "com.verbref.toolchainsmoke" with clear state... COMPLETED
+  Assert that "Toolchain smoke" is visible... COMPLETED
+  Run lookup.yaml...
+    Assert that "Toolchain smoke" is visible... COMPLETED
+    Tap on id: verb-input... COMPLETED
+    Erase text... COMPLETED
+    Input text hablar... COMPLETED
+    Hide Keyboard... COMPLETED
+    Tap on "(?i)look up"... COMPLETED
+    Assert that "hablo — I speak" is visible... COMPLETED
+  Run lookup.yaml... COMPLETED
+Run smoke.yaml... COMPLETED
+Stop com.verbref.toolchainsmoke... COMPLETED
+Launch app "com.verbref.toolchainsmoke"... COMPLETED
+Run lookup.yaml...
+  Assert that "Toolchain smoke" is visible... COMPLETED
+  Tap on id: verb-input... COMPLETED
+  Erase text... COMPLETED
+  Input text hablar... COMPLETED
+  Hide Keyboard... COMPLETED
+  Tap on "(?i)look up"... COMPLETED
+  Assert that "hablo — I speak" is visible... COMPLETED
+Run lookup.yaml... COMPLETED

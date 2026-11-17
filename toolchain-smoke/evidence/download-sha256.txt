@@ -1,0 +1,4 @@
+0877a1d048fe4a24efe2eff536ca4223f7adeb58648bb81909d33c446918cfa8  tooling/downloads/android.zip
+8b9b611d917e3dfd8419d3566b5949226f69b052fed7e109c1368add1dfe8711  tooling/downloads/jdk.tar.gz
+29b675e10cc12080e445e9bfb2e2b4e4dfb9c0f2e30d5884120d258b5e1cd991  tooling/downloads/maestro.zip
+d60acfe00a2932254bb0ad20e01b0d74397a0875595de719654b214f4b03f307  tooling/downloads/node.tar.xz

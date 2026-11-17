@@ -1,0 +1,1 @@
+b1ed97bf757f182bfa39cd46387d6e4791eaacb874d8aad54e26af989438da26  harness/android/app/build/outputs/apk/release/app-release.apk

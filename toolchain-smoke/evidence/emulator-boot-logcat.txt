@@ -1,0 +1,52 @@
+--------- beginning of main
+11-17 22:34:16.839   444   461 D installd: Found quota mount /dev/block/dm-5 at /data
+11-17 22:34:16.839   444   461 D installd: Found quota mount /dev/block/dm-5 at /data/user/0
+--------- beginning of system
+11-17 22:34:16.851   548   548 I PackageWatchdog: Syncing state, reason: added new observer
+11-17 22:34:16.851   548   548 I PackageWatchdog: Not pruning observers, elapsed time: 0ms
+11-17 22:34:16.851   548   548 I PackageWatchdog: Cancelling state sync, nothing to sync
+11-17 22:34:16.856   548   548 D SystemServerTiming: StartRollbackManagerService took to complete: 18ms
+11-17 22:34:16.857   548   592 I PackageWatchdog: Saving observer state to file
+11-17 22:34:16.858   548   548 I SystemServerTiming: StartBugreportManagerService
+11-17 22:34:16.858   548   548 I SystemServiceManager: Starting com.android.server.os.BugreportManagerService
+11-17 22:34:16.858   548   548 D SystemServerTiming: StartBugreportManagerService took to complete: 1ms
+11-17 22:34:16.859   548   548 I SystemServerTiming: GpuService
+11-17 22:34:16.859   548   548 I SystemServiceManager: Starting com.android.server.gpu.GpuService
+11-17 22:34:16.859   548   548 D SystemServerTiming: GpuService took to complete: 0ms
+11-17 22:34:16.859   548   548 D SystemServerTiming: startCoreServices took to complete: 352ms
+11-17 22:34:16.859   548   548 I SystemServerTiming: startOtherServices
+11-17 22:34:16.859   548   548 I SystemServerTiming: StartKeyAttestationApplicationIdProviderService
+11-17 22:34:16.862   548   713 I SystemServerTimingAsync: InitThreadPoolExec:SecondaryZygotePreload
+11-17 22:34:16.862   548   713 D SystemServerInitThreadPool: Started executing SecondaryZygotePreload
+11-17 22:34:16.862   548   713 I SystemServer: SecondaryZygotePreload
+11-17 22:34:16.862   548   713 I SystemServerTimingAsync: SecondaryZygotePreload
+11-17 22:34:16.864   548   548 D SystemServerTiming: StartKeyAttestationApplicationIdProviderService took to complete: 5ms
+11-17 22:34:16.864   548   548 I SystemServerTiming: StartKeyChainSystemService
+11-17 22:34:16.864   548   548 I SystemServiceManager: Starting com.android.server.security.KeyChainSystemService
+11-17 22:34:16.865   548   548 D SystemServerTiming: StartKeyChainSystemService took to complete: 0ms
+11-17 22:34:16.865   548   548 I SystemServerTiming: StartSchedulingPolicyService
+11-17 22:34:16.865   548   591 I SystemServerTimingAsync: InitThreadPoolExec:SchedulingPolicyService.<init>
+11-17 22:34:16.865   548   591 D SystemServerInitThreadPool: Started executing SchedulingPolicyService.<init>
+11-17 22:34:16.866   548   548 D SystemServerTiming: StartSchedulingPolicyService took to complete: 1ms
+11-17 22:34:16.885   548   548 I SystemServerTiming: StartTelecomLoaderService
+11-17 22:34:16.885   548   548 I SystemServiceManager: Starting com.android.server.telecom.TelecomLoaderService
+11-17 22:34:16.885   548   548 D SystemServerTiming: StartTelecomLoaderService took to complete: 0ms
+11-17 22:34:16.885   548   548 I SystemServerTiming: StartTelephonyRegistry
+11-17 22:34:16.890   310   310 I Zygote  : Lazily preloading resources.
+11-17 22:34:16.890   310   310 D Zygote  : begin preload
+11-17 22:34:16.890   310   310 I Zygote  : Calling ZygoteHooks.beginPreload()
+11-17 22:34:16.941   548   591 I SchedulingPolicyService: Moving 464 back to group default
+11-17 22:34:16.942   548   591 D SystemServerInitThreadPool: Finished executing SchedulingPolicyService.<init>
+11-17 22:34:16.942   548   591 D SystemServerTimingAsync: InitThreadPoolExec:SchedulingPolicyService.<init> took to complete: 77ms
+11-17 22:34:16.975   548   548 D SystemServerTiming: StartTelephonyRegistry took to complete: 90ms
+11-17 22:34:16.975   548   548 I SystemServerTiming: StartEntropyMixer
+11-17 22:34:16.979   548   657 D SystemServerTimingAsync: AppDataPrepare took to complete: 5109ms
+11-17 22:34:16.979   548   657 I PackageManager: Deferred reconcileAppsData finished 179 packages
+11-17 22:34:16.979   548   657 D SystemServerInitThreadPool: Finished executing prepareAppData
+11-17 22:34:16.979   548   657 D SystemServerTimingAsync: InitThreadPoolExec:prepareAppData took to complete: 5116ms
+11-17 22:34:16.997   548   548 W EntropyMixer: No existing entropy file -- first boot?
+11-17 22:34:17.052   548   548 I EntropyMixer: Added HW RNG output to entropy pool
+11-17 22:34:17.053   548   548 I EntropyMixer: Writing entropy...
+11-17 22:34:17.079   310   310 D ZygoteInitTiming_lazy: BeginPreload took to complete: 189ms
+11-17 22:34:17.081   310   310 I Zygote  : Preloading classes...
+11-17 22:34:17.085   310   310 W Zygote  : Class not found for preloading: android.app.-$$Lambda$ResourcesManager$QJ7UiVk_XS90KuXAsIjIEym1DnM

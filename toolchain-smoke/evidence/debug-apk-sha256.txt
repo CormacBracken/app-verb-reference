@@ -1,0 +1,1 @@
+2be296afd4155cc966bebeef356e1845522e642ab11d69f962b247b762f8e9fb  harness/android/app/build/outputs/apk/debug/app-debug.apk

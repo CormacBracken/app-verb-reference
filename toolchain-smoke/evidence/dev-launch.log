@@ -1,0 +1,7 @@
+Starting: Intent { act=android.intent.action.VIEW dat=exp+verbref-toolchain-smoke://expo-development-client/?url=http://127.0.0.1:8081 pkg=com.verbref.toolchainsmoke }
+Status: ok
+LaunchState: COLD
+Activity: com.verbref.toolchainsmoke/.MainActivity
+TotalTime: 7446
+WaitTime: 7453
+Complete

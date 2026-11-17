@@ -1,0 +1,21 @@
+--------- beginning of main
+11-17 23:35:10.181   548   926 I chatty  : uid=1000(system) Binder:548_B expire 3 lines
+11-17 23:35:10.181   548   926 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+11-17 23:35:10.181   843  1005 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+11-17 23:35:10.182  1222  1510 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+11-17 23:35:10.182  1222  1509 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+11-17 23:35:10.182  1222  1243 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+11-17 23:35:10.183  1222  1243 I chatty  : uid=1001(radio) Binder:1222_2 identical 3 lines
+11-17 23:35:10.183  1222  1243 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+11-17 23:35:10.184   832  1504 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+11-17 23:35:10.185   832  1437 I HeadsetPhoneState: stopListenForPhoneState(), no listener indicates nothing is listening
+11-17 23:35:10.185   832  1437 W HeadsetPhoneState: startListenForPhoneState, no event to listen
+11-17 23:35:10.229   843   843 D KeyguardViewMediator: handleNotifyScreenTurningOn
+11-17 23:35:10.231   843   843 D KeyguardClockSwitch: Updating clock: 1035
+11-17 23:35:10.308  1222  1222 I Telephony: TelecomAccountRegistry: onSubscriptionsChanged - update accounts
+11-17 23:35:10.309  1222  1222 I Telephony: PstnIncomingCallNotifier: Unregistering: Handler (com.android.internal.telephony.GsmCdmaPhone) {1936fc6}
+11-17 23:35:10.309  1222  1222 D Telephony: Unregistering: Handler (com.android.internal.telephony.GsmCdmaPhone) {1936fc6}
+11-17 23:35:10.309  1222  1222 I Telephony: TelecomAccountRegistry: setupAccounts: Found 1 phones.  Attempting to register.
+11-17 23:35:10.309  1222  1222 I Telephony: TelecomAccountRegistry: setupAccounts: Phone with subscription id -1
+11-17 23:35:10.310  1222  1222 D Telephony: TelecomAccountRegistry: setupAccounts: skipping invalid subid -1
+11-17 23:35:10.310  1222  1222 I Telephony: setupAccounts: adding default

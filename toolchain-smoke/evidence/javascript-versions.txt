@@ -1,0 +1,9 @@
+harness@1.0.0 /home/cormac/Projects/verb-reference/toolchain-smoke/harness
+├── @types/react@19.3.0
+├── expo-dev-client@58.0.21
+├── expo-status-bar@58.0.5
+├── expo@58.0.26
+├── react-native@0.88.1
+├── react@19.3.0
+└── typescript@6.0.3
+
