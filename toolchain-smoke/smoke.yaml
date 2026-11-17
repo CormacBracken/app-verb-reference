@@ -1,0 +1,8 @@
+appId: com.verbref.toolchainsmoke
+---
+- launchApp:
+    clearState: true
+- extendedWaitUntil:
+    visible: "Toolchain smoke"
+    timeout: 30000
+- runFlow: lookup.yaml

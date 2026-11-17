@@ -1,0 +1,6 @@
+appId: com.verbref.toolchainsmoke
+---
+- runFlow: smoke.yaml
+- stopApp
+- launchApp
+- runFlow: lookup.yaml

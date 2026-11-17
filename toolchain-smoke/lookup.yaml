@@ -1,0 +1,10 @@
+appId: com.verbref.toolchainsmoke
+---
+- assertVisible: "Toolchain smoke"
+- tapOn:
+    id: "verb-input"
+- eraseText
+- inputText: "hablar"
+- hideKeyboard
+- tapOn: "(?i)look up"
+- assertVisible: "hablo — I speak"

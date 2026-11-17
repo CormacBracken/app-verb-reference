@@ -1,0 +1,4 @@
+appId: com.verbref.toolchainsmoke
+---
+- openLink: "exp+verbref-toolchain-smoke://expo-development-client/?url=http%3A%2F%2F127.0.0.1%3A8081"
+- assertVisible: "Toolchain reload confirmed"

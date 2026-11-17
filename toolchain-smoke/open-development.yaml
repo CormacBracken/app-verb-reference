@@ -1,0 +1,17 @@
+appId: com.verbref.toolchainsmoke
+---
+- openLink: "exp+verbref-toolchain-smoke://expo-development-client/?url=http%3A%2F%2F127.0.0.1%3A8081"
+- extendedWaitUntil:
+    visible: "Toolchain smoke"
+    timeout: 60000
+- runFlow:
+    when:
+      visible: "Continue"
+    commands:
+      - tapOn: "Continue"
+- runFlow:
+    when:
+      visible: "Close"
+    commands:
+      - tapOn: "Close"
+- runFlow: lookup.yaml
