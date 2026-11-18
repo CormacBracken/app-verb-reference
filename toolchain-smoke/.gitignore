@@ -1,0 +1,4 @@
+tooling/
+evidence/**/*.apk
+evidence/**/*.png
+evidence/**/*.mp4
