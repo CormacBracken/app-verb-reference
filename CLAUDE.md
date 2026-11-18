@@ -2,6 +2,26 @@
 
 This file provides instructions and context for AI coding agents working on this project.
 
+## Selectable questions in Codex
+
+When using `wayfinder`, `grilling`, `grill-with-docs`, or `grill-me` in Codex
+outside Plan mode, ask questions through `request_user_input_async` with
+selectable options. Put the recommended option first and label it
+“(Recommended)”; explain relevant tradeoffs in the question. Wait for the
+user's answers before proceeding with decisions that depend on them.
+
+## Subagent tool-access workaround
+
+When delegation is authorized, explicitly use `fork_turns: "none"` for
+`collaboration.spawn_agent`. Full-history forks reported no callable tools in
+repeated probes; fresh-context agents successfully used shell and web tools.
+Pass the task, repository path, applicable instructions/skill paths, constraints,
+and expected output explicitly. Have the child verify a real tool call before
+substantial work. This workaround does not itself authorize delegation.
+For reproduction or reassessment, read
+[the diagnosis](docs/diagnostics/subagent-tool-access.md); the underlying bug
+remains open as **Investigate missing tool access in spawned subagents**.
+
 <!-- BEGIN BEADS INTEGRATION v:1 profile:minimal hash:1105d646 -->
 ## Beads Issue Tracker
 
